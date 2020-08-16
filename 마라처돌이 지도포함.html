@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>마라처돌이 </title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <h1 align="center">마라처돌이의 마라탕맛집</h1>
+    <div>
+         <p align="center">원픽 마라탕집 소개하기(p.s. 마라샹궈를 더 좋아하는 편)</p>
+    </div>
+   
+
+
+    <br><br><br><br><br>
+
+    <div style="font-size:35px; text-align:center; margin:0px 0px 0px 30px">
+        마라탕, 마라샹궈가 땡기는 영상
+    <br><br>
+    <<iframe width="560" height="315" src="https://www.youtube.com/embed/E1Ym3ffoVZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br><br><br><br><br><br><br><br>
+
+    <div style="font-size:35px; text-align:center; margin:0px 0px 0px 30px">
+        내가 가장 좋아하는 마라탕집인 이대 마라탕 6호점이야! 다들 꼭 가서 마라샹궈 먹어줘!
+
+    <br>
+    <br>
+    
+    <img src="https://lh3.googleusercontent.com/proxy/k6qDHD6385kht6K_FW0KJ1q_lOOKXmBQUOZUf53hXU0DOf421DV1Pn7SDmmKCUlwTlEflCpPFctsNldvk1I-8_iI46lu2hf-qNIuZRkJOdKLQmMXPQZzuUABw3wxucSOld3RCZqQ2hP5TScvlTwZNUT--m7ivRG5eRPIHzQRwV1w6R2mwrmkDeGwGfYZa6Oz6zIJdDMK3s-IbvXgGrPDyp6BNqUd0BBiK-d9rnzgBZ2OokuE6xq8B8d4Pl5tSWjHnSFOwSmcZKphzoXcSMIx7YmxNjgBK4tyv_-U_Kko" alt="잘못된 경로입니다" width="400; margin-top=50px">
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br><br><br><br><br>
+  
+    <div id="map" style="width:100%;height:350px;"></div>
+    
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e19201c1600079ee74419348e5b5d98d"></script>
+    <script>
+    var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+    mapOption = { 
+        center: new kakao.maps.LatLng(37.558879, 126.942402), // 지도의 중심좌표
+        level: 3 // 지도의 확대 레벨
+    };
+
+    var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+    // 마커가 표시될 위치입니다 
+    var markerPosition  = new kakao.maps.LatLng(37.558879, 126.942402); 
+
+    // 마커를 생성합니다
+v   ar marker = new kakao.maps.Marker({
+    position: markerPosition
+    });
+
+    // 마커가 지도 위에 표시되도록 설정합니다
+    marker.setMap(map);
+
+    // 아래 코드는 지도 위의 마커를 제거하는 코드입니다
+    // marker.setMap(null);    
+    </script>
+
+    <br><br>
+
+    <br>
+    <br><br><br><br><br>
+</body> 
+</html>
