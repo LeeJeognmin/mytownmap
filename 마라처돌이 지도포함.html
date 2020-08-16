@@ -35,36 +35,7 @@
     <img src="https://lh3.googleusercontent.com/proxy/k6qDHD6385kht6K_FW0KJ1q_lOOKXmBQUOZUf53hXU0DOf421DV1Pn7SDmmKCUlwTlEflCpPFctsNldvk1I-8_iI46lu2hf-qNIuZRkJOdKLQmMXPQZzuUABw3wxucSOld3RCZqQ2hP5TScvlTwZNUT--m7ivRG5eRPIHzQRwV1w6R2mwrmkDeGwGfYZa6Oz6zIJdDMK3s-IbvXgGrPDyp6BNqUd0BBiK-d9rnzgBZ2OokuE6xq8B8d4Pl5tSWjHnSFOwSmcZKphzoXcSMIx7YmxNjgBK4tyv_-U_Kko" alt="잘못된 경로입니다" width="400; margin-top=50px">
     </div>
 
-    <div style="border:3px red"> 
-    
-        <div id="map" style="width:100%;height:350px;"></div>
-    
-    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e19201c1600079ee74419348e5b5d98d"></script>
-    <script>
-    var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
-    mapOption = { 
-        center: new kakao.maps.LatLng(37.558879, 126.942402), // 지도의 중심좌표
-        level: 3 // 지도의 확대 레벨
-    };
 
-    var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
-
-    // 마커가 표시될 위치입니다 
-    var markerPosition  = new kakao.maps.LatLng(37.558879, 126.942402); 
-
-    // 마커를 생성합니다
-v   ar marker = new kakao.maps.Marker({
-    position: markerPosition
-    });
-
-    // 마커가 지도 위에 표시되도록 설정합니다
-    marker.setMap(map);
-
-    // 아래 코드는 지도 위의 마커를 제거하는 코드입니다
-    // marker.setMap(null);    
-    </script>
-
-    </div>
 
     <br>
     <br>
